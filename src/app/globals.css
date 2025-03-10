@@ -1,8 +1,18 @@
 @import "tailwindcss";
 
-body {
-  background-image: linear-gradient(to left top, #d6fff6, #85c6cf, #3f8cae, #1b5187, #231651);
+:root {
+  --primary: #eeeeee;
+  --accent: #363029;
+  --neutral: #383838;
+  --title-color: #46ac46;
 }
 
-@media (min-width: 720px) {
+body {
+ 
 }
+
+.title {
+  color: var(--title-color);
+}
+
+@media (min-width: 720px) {}
