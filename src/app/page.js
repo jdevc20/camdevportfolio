@@ -18,16 +18,15 @@ export default function Home() {
             />
             <div className="mt-4 w-full flex justify-center">
               <button className="bg-teal-600 text-white py-2 px-6 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
-                Let's Connect
+                Let&apos;s Connect
               </button>
             </div>
           </div>
 
-
           {/* Introduction Section */}
           <div className="col-span-1 lg:col-span-3 row-span-3 text-center lg:text-left bg-gradient-to-r from-blue-500 to-teal-500 p-10  shadow-lg animate__animated animate__fadeIn animate__delay-1s">
             <h1 className="text-5xl text-white font-extrabold mb-4 animate__animated animate__fadeIn animate__delay-2s">
-              Hello! I'm John Dave
+              Hello! I&apos;m John Dave
             </h1>
             <p className="text-xl mb-6 text-gray-100 animate__animated animate__fadeIn animate__delay-3s">
               A developer based in Bacolod City. 🎭
@@ -57,8 +56,6 @@ export default function Home() {
                 <p className="text-sm text-gray-200">In my free time, I love hiking and exploring nature.</p>
               </div>
             </div>
-
-
           </div>
 
           {/* Tech Icons Section */}
