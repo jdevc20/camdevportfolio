@@ -8,13 +8,13 @@ export default function IntroductionSection() {
         Hello! I&apos;m John Dave 😄
       </h1>
       <p className="text-base sm:text-lg lg:text-xl mb-4 text-gray-600">
-        A developer based in Bacolod City.
+        A developer based in Bacolod City. 🎭
       </p>
       <p className="text-sm sm:text-base lg:text-lg text-gray-700">
-        Passionate about clean, efficient, and future-proof code that adheres to best practices.
+        Passionate about clean, efficient, and future-proof code that adheres to best practices. ✍️
       </p>
       <p className="text-sm sm:text-base lg:text-lg mt-4 text-gray-700">
-        I studied Computer Science at the University of Saint La Salle, specializing in Game Development.
+        I studied Computer Science at the University of Saint La Salle, specializing in Game Development. 🧑‍💻
       </p>
 
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
