@@ -16,3 +16,10 @@ body {
 }
 
 @media (min-width: 720px) {}
+
+.background-dots {
+  background-image: radial-gradient(circle, #bbb 1px, transparent 1px);
+  transition: background-color 0.3s, color 0.3s;
+  background-size: 20px 20px; /* Size of the dots */
+  font-size: large;
+}
