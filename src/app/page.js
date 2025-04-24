@@ -7,6 +7,7 @@ import IntroductionSection from "./components/IntroductionSection";
 import ProjectSection from "./components/ProjectSection";
 import SkillsSection from "./components/SkillSection";
 import Status from "./components/Status";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -38,6 +39,10 @@ export default function Home() {
 
           <AnimatedOnScroll animation="animate__fadeInRight" delay="0.6s">
             <ExperienceSection />
+          </AnimatedOnScroll>
+
+          <AnimatedOnScroll animation="animate__fadeInRight" delay="0.6s">
+            <Footer/>
           </AnimatedOnScroll>
         </div>
       </div>
