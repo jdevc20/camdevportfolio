@@ -12,19 +12,19 @@ export default function ProjectSection() {
           title="Hiligaynon Dictionary API"
           description="A RESTful API with SQLite3 and Express to serve definitions and example usages of Hiligaynon words."
           tech="Node.js, Express, SQLite3"
-          link="https://github.com/yourusername/hiligaynon-dictionary-api"
+          link="https://github.com/jdevc20/hiligaynon-dictionary-api"
         />
         <ProjectCard
           title="Real-time Notifications"
           description="Socket.IO and JWT-based user notification system for live updates in a React app."
           tech="React, Node.js, Socket.IO"
-          link="https://github.com/yourusername/notification-system"
+          link="https://github.com/jdevc20/notification-system"
         />
         <ProjectCard
           title="Portfolio Website"
           description="A personal website to showcase my skills, projects, and resume with SEO-friendly React 19 setup."
           tech="React, TailwindCSS, Vite"
-          link="https://yourportfolio.com"
+          link="https://devcamarin.netlify.app"
         />
       </div>
     </section>
