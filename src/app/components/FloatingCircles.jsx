@@ -1,16 +1,9 @@
 import React, { useEffect } from 'react';
+import 'animate.css'; // Import Animate.css
 
 const colors = [
-  '#EF5350', // Soft Red
-  '#FB8C00', // Deep Orange
-  '#FDD835', // Golden Yellow
-  '#66BB6A', // Balanced Green
-  '#42A5F5', // Bright Blue
-  '#5C6BC0', // Blue Indigo
-  '#AB47BC', // Violet
-  '#26C6DA', // Sky Cyan
-  '#26A69A', // Medium Teal
-  '#FFA726'  // Orange Accent
+  '#EF5350', '#FB8C00', '#FDD835', '#66BB6A', '#42A5F5',
+  '#5C6BC0', '#AB47BC', '#26C6DA', '#26A69A', '#FFA726'
 ];
 
 function getRandomInt(min, max) {
@@ -31,7 +24,7 @@ const FloatingCircles = ({ count = 20 }) => {
       const dy = getRandomInt(-250, -100);
       const animName = `float-${x}-${y}-${i}`;
 
-      // Create keyframes dynamically
+      // Create keyframes dynamically for the floating animation
       const keyframes = `
         @keyframes ${animName} {
           0% { transform: translate(0, 0); }
@@ -49,14 +42,16 @@ const FloatingCircles = ({ count = 20 }) => {
       div.style.backgroundColor = color;
       div.style.left = `${x}px`;
       div.style.top = `${y}px`;
-      div.style.animation = `${animName} ${duration}s linear infinite`;
-      div.style.zIndex = -1
+      div.style.animation = `${animName} ${duration}s linear infinite, animate__animated 1s infinite alternate`;
+      div.style.zIndex = -1; // Set the circle behind other content
+      div.className = 'animate__heartBeat'; // Add Animate.css heartbeat class
+      div.style.opacity = "0.3";
 
       document.body.appendChild(div);
     }
   }, [count]);
 
-  return null; // Nothing rendered in JSX — circles are added to body
+  return null; // Circles are added to the body, no JSX rendered here
 };
 
 export default FloatingCircles;
