@@ -2,7 +2,7 @@ import SkillCard from "./SkillCard";
 
 export default function SkillsSection() {
   return (
-    <section className="p-6 sm:p-8 md:p-10 bg-blue-200 text-gray-800 rounded-2xl shadow-lg mt-12">
+    <section className="p-6 sm:p-8 md:p-10 bg-blue-200 text-gray-800 rounded-2xl shadow-lg">
       <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-6 text-center">
         Skills & Expertise 🧠
       </h2>

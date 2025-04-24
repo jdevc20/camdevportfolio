@@ -2,7 +2,7 @@ import ExperienceCard from "./ExperienceCard";
 
 export default function ExperienceSection() {
   return (
-    <section className="p-6 sm:p-8 md:p-10 bg-indigo-200 text-gray-800 rounded-2xl shadow-lg mt-12">
+    <section className="p-6 sm:p-8 md:p-10 bg-indigo-200 text-gray-800 rounded-2xl shadow-lg">
       <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-6 text-center">
         Experience 💼
       </h2>

@@ -8,17 +8,18 @@ export default function IntroductionSection() {
         Hello! I&apos;m John Dave 😄
       </h1>
 
-      <p className="animate__animated animate__fadeInUp animate__delay-2s text-base sm:text-lg lg:text-xl mb-4 text-green-700">
-        A developer based in Bacolod City. 🎭
+      <p className="animate__animated animate__fadeInUp animate__delay-2s text-base sm:text-lg lg:text-xl mb-2 text-green-700">
+        I build clean, scalable systems and love solving real-world problems through code. 🏗️
       </p>
       <p className="animate__animated animate__fadeInUp animate__delay-3s text-sm sm:text-base lg:text-lg text-green-700">
         Passionate about clean, efficient, and future-proof code that adheres to best practices. ✍️
       </p>
-      <p className="animate__animated animate__fadeInUp animate__delay-4s text-sm sm:text-base lg:text-lg mt-4 text-green-700">
+      <p className="animate__animated animate__fadeInUp animate__delay-4s text-sm sm:text-base lg:text-lg mt-2 text-green-700">
         I studied Computer Science at the University of Saint La Salle, specializing in Game Development. 🧑‍💻
       </p>
 
-      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-2">
+
         <div className="animate__animated animate__fadeInUp animate__delay-6s">
           <InterestCard
             icon={FaLaptopCode}
