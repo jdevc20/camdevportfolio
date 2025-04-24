@@ -24,6 +24,20 @@ export default function ExperienceSection() {
           tech="C#, OutSystems"
         />
 
+        <ExperienceCard
+          company="HyBrain Incorporated"
+          position="Software Developer"
+          dateRange="January 2022 – September 2022"
+          responsibilities={[
+            "Developed and maintained WPF-based desktop applications for hospital management systems.",
+            "Collaborated with healthcare professionals to understand workflow and translate requirements into robust software solutions.",
+            "Performed bug fixing, code optimization, and UI enhancements to improve system reliability and user experience.",
+            "Integrated external systems and APIs for features such as patient records, billing, and laboratory data."
+          ]}
+          tech="C#, WPF, MVVM, SQL Server"
+        />
+
+
         {/* Add more ExperienceCard components here for other roles */}
       </div>
     </section>
