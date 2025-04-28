@@ -8,6 +8,7 @@ import ProjectSection from "./components/ProjectSection";
 import SkillsSection from "./components/SkillSection";
 import Status from "./components/Status";
 import Footer from "./components/Footer";
+import ContactCard from "./components/ContactCard";
 
 export default function Home() {
   return (
@@ -20,12 +21,24 @@ export default function Home() {
             <IntroductionSection />
           </AnimatedOnScroll>
 
+
           <AnimatedOnScroll animation="animate__fadeInUp" delay="0.2s">
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 items-start">
-    <Connect />
-    <Status />
-  </div>
-</AnimatedOnScroll>
+            <ContactCard
+              linkedin="https://linkedin.com/in/johndave"
+              viber="+639123456789"
+              email="johndave@example.com"
+            />
+          </AnimatedOnScroll>
+
+
+
+
+          <AnimatedOnScroll animation="animate__fadeInUp" delay="0.2s">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 items-start">
+              <Connect />
+              <Status />
+            </div>
+          </AnimatedOnScroll>
 
 
 
@@ -42,7 +55,7 @@ export default function Home() {
           </AnimatedOnScroll>
 
           <AnimatedOnScroll animation="animate__fadeInRight" delay="0.6s">
-            <Footer/>
+            <Footer />
           </AnimatedOnScroll>
         </div>
       </div>
